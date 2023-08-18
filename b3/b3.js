@@ -1,9 +1,3 @@
-let a = "Minh";
-let b = "Quang";
-let c = a+b;
-let text = 'We are the so-called "Vikings" from the north."'
-let d = "qwertyuiopasdfghjkl  zxcvbnm        ";
-
-document.getElementById("demo").innerHTML = text;
-console.log(c);
-console.log(d.trim().length);
+let str = "Toi ten la Hoang Trong Minh 20215427";
+let myArr = str.split("");
+document.getElementById("demo1").innerHTML = myArr[7];
